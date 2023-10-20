@@ -1,6 +1,5 @@
 ## Introduction
-This repository contains the main source code for our deep learning models, machine learning models and fusion models for predicting the invasiveness of pulmonary nodules., without model weights due to that it derived from a commercial software. The model is explained in the paper xxx.
-
+This repository contains the main source code for our deep learning models, machine learning models and fusion models for predicting the invasiveness of pulmonary nodules.
 ### Prerequisites
 - Ubuntu 16.04.4 LTS
 - Python 3.6.13
