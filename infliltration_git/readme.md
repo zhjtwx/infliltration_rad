@@ -96,12 +96,12 @@ pip install -r requirements.txt
     #### configuration file:
     - train task: DL_ML/config_dl_rad.py
       - inference_mode = False
-      - model_name = 'densenet36_fgpn_dl'
+      - model_name = 'densenet36_fgpn_ml'
       - train_set_dir: Save the image name and label csv file path of the training data
       - train_rad_dir: Save the image name and radiomic feature csv file path of the training data
       - val_set_dirs: Save the image name, radiomic feature and label csv file path of the val data
       - mode_save_base_dir: Model output address
-    - infer task: DL_ML/config_dl.py
+    - infer task: DL_ML/config_dl_rad.py
       - inference_mode = Ture
-      - model_name = 'densenet36_fgpn'
+      - model_name = 'densenet36_fgpn_ml'
       - save_csv: Result output
