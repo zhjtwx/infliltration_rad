@@ -71,7 +71,7 @@ pip install -r requirements.txt
     - tags_csv: Tags to mark the training set or test set, with mask and dataset columns.
       - mask: mask file path
       - dataset: Data set, 0 is the training and verification set, 1 is the test set
-  - Feature selection:
+  - infer:
     ```
     python infer.py --feature_csv --model --label_encoder --feature_scalar --output
     ```
